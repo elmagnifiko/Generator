@@ -1,0 +1,123 @@
+body {
+    background-color: hsl(203.28,65.91%,34.51%);
+    color: white;
+    text-align: center;
+    padding-top: 320px;
+   
+    
+}
+
+div {
+    
+    width: 630px;
+    margin: auto;
+    text-align: left;
+   
+}
+
+p {
+    text-align: right;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    color: white;
+    background-color: hsl(215.45,98.37%,51.76%);
+    border: none;
+    width: 250px;
+    height: 30px;
+    border-radius: 4px;
+    margin-left: 150px;
+
+}
+
+footer {
+   background-color: hsl(218.52,40.3%,39.41%);
+   height: 30px;
+   position: absolute;
+   bottom: 8px;
+   width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+
+
+    div {
+        width: 430px;
+        margin: auto;
+        text-align: left;
+        
+       
+    }
+    h1 {
+        font-size: 18px;
+    }
+    
+    button {
+        margin-left: 120px;
+        margin-top: 100px;
+        color: white;
+        background-color: hsl(215.45,98.37%,51.76%);
+        border: none;
+        width: 200px;
+        height: 25px;
+        border-radius: 4px;
+
+    }
+    p {
+        text-align: right;
+        font-size: 10px;
+    }
+    
+    
+    footer {
+       background-color: hsl(218.52,40.3%,39.41%);
+       height: 30px;
+       margin-top: 290px;
+       font-size: 12px;
+       width: 760px;
+    } 
+    
+}
+@media screen and (max-width: 425px) {
+
+
+    div {
+        width: 230px;
+        margin: auto;
+        text-align: left;
+        
+       
+    }
+    h1 {
+        font-size: 10px;
+    }
+    
+    button {
+        margin-left: 50px;
+        margin-top: 100px;
+        color: white;
+        background-color: hsl(215.45,98.37%,51.76%);
+        border: none;
+        width: 130px;
+        height: 25px;
+        border-radius: 4px;
+        font-size: 10px;
+
+    }
+    p {
+        text-align: right;
+        font-size: 7px;
+    }
+    
+    
+    footer {
+       background-color: hsl(218.52,40.3%,39.41%);
+       height: 13px;
+       margin-top: 290px;
+       font-size: 7px;
+       width: 420px;
+    } 
+    
+}
